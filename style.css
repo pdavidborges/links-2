@@ -1,0 +1,81 @@
+/* 
+ seletor{
+    propriedade:valor;
+ }
+*/
+
+body{
+    background-color: #222831;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #393E46; /*cor do texto*/
+    font-size: 32px; /*tamanho da fonte*/
+    margin: 0;
+}
+
+h2{
+    color: #1e242e;
+    font-size: 20px;
+    margin: 0;
+}
+
+p{
+    color: #666666;
+}
+
+img{
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: #222831;*/    
+    border: solid 5px #222831;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.principal{
+    background-color: #EEEEEE;
+    width: 70%;
+    max-width: 340px; /*largura (340 + 60 do padding)*/
+    height: auto; /*altura*/
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px; /*espaçamento interno. acrescenta espaço à largura e altura*/
+    text-align: center;    
+    border-radius: 10px; /*arredondamento de cantos*/
+}
+
+/*div menu*/
+.menu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*links que estão dentro da div menu*/
+.menu a{
+    background-color: #393E46;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    text-decoration: none; /*retira o sublinhado*/
+}
+
+/*Ao passar o mouse nos links do menu*/
+.menu a:hover{
+    background-color: #000000;
+}
+
+.assinatura{
+    color: #222831;
+}
+
+.assinatura:hover{
+    font-style: italic;
+}
